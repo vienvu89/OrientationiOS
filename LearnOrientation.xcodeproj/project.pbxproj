@@ -13,6 +13,9 @@
 		FB0BFF121B4D504C0045BA23 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB0BFF111B4D504C0045BA23 /* Images.xcassets */; };
 		FB0BFF151B4D504C0045BA23 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB0BFF131B4D504C0045BA23 /* LaunchScreen.xib */; };
 		FB0BFF211B4D504C0045BA23 /* LearnOrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0BFF201B4D504C0045BA23 /* LearnOrientationTests.swift */; };
+		FB0BFF2B1B4D623F0045BA23 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0BFF2A1B4D623F0045BA23 /* DetailViewController.swift */; };
+		FBFC35281B5501FF001ED21E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC35271B5501FF001ED21E /* BaseViewController.swift */; };
+		FBFC355C1B55306D001ED21E /* DetailViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFC355B1B55306D001ED21E /* DetailViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		FB0BFF1A1B4D504C0045BA23 /* LearnOrientationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnOrientationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB0BFF1F1B4D504C0045BA23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB0BFF201B4D504C0045BA23 /* LearnOrientationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnOrientationTests.swift; sourceTree = "<group>"; };
+		FB0BFF2A1B4D623F0045BA23 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FBFC35271B5501FF001ED21E /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		FBFC355B1B55306D001ED21E /* DetailViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +85,13 @@
 			children = (
 				FB0BFF0A1B4D504C0045BA23 /* AppDelegate.swift */,
 				FB0BFF0C1B4D504C0045BA23 /* ViewController.swift */,
+				FB0BFF2A1B4D623F0045BA23 /* DetailViewController.swift */,
+				FBFC355B1B55306D001ED21E /* DetailViewController2.swift */,
 				FB0BFF0E1B4D504C0045BA23 /* Main.storyboard */,
 				FB0BFF111B4D504C0045BA23 /* Images.xcassets */,
 				FB0BFF131B4D504C0045BA23 /* LaunchScreen.xib */,
 				FB0BFF081B4D504B0045BA23 /* Supporting Files */,
+				FBFC35271B5501FF001ED21E /* BaseViewController.swift */,
 			);
 			path = LearnOrientation;
 			sourceTree = "<group>";
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBFC35281B5501FF001ED21E /* BaseViewController.swift in Sources */,
+				FB0BFF2B1B4D623F0045BA23 /* DetailViewController.swift in Sources */,
 				FB0BFF0D1B4D504C0045BA23 /* ViewController.swift in Sources */,
+				FBFC355C1B55306D001ED21E /* DetailViewController2.swift in Sources */,
 				FB0BFF0B1B4D504C0045BA23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +421,7 @@
 				FB0BFF261B4D504C0045BA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB0BFF271B4D504C0045BA23 /* Build configuration list for PBXNativeTarget "LearnOrientationTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				FB0BFF291B4D504C0045BA23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
